@@ -1,36 +1,36 @@
 def main():
     #escribe tu código abajo de esta línea
-    
+
     # CODIGO ###############
 
-    # Contando pares e impares -----------------------------
-    # Autor: ricardo.quintero@tec.mx
+    # leer, separar, contar, ordenar, max, min-----------------------------
+    # Autor: roque@tec.mx
 
-    fin=False
-    lista=[]
+    n = int( input("Cantidad de elementos: ") )
 
-    while not fin:
-        numero=input()
-
-        if numero == "*":
-            break
-        lista.append(int(numero))
-
-    cp=0
-    ci=0
-
-    for e in lista:
-        if e % 2 == 0:
-            cp=cp+1
+    lista = []
+    lista_par = []
+    lista_impar = []
+    for contador in range(n):
+        lista.append(int(input(f"Ingresa el elemento {contador}: ")))
+        if lista[contador] %2 == 0:
+            lista_par.append( lista[contador] )
         else:
-            ci=ci+1
+            lista_impar.append( lista[contador] )
 
-    print("PARES="+str(cp))
-    print("IMPARES="+str(ci))
+    if n > 0:
+        print(lista)
+        print(lista_par)
+        print(lista_impar)
+        print(f"PARES={len(lista_par)}")
+        print(f"IMPARES={len(lista_impar)}")
+        lista.sort( )
+        print(lista)
+        print(max(lista))
+        print(min(lista))
 
-    # FIN CODIGO ######################
-    
-    pass
+
+
 
 if __name__=='__main__':
     main()
