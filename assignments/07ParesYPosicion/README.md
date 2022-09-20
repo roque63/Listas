@@ -30,12 +30,12 @@ Observa que va la palabra ``pos`` seguida de un ``número``, después una ``coma
 ## Ejemplo de ejecución del programa:
 ### Entrada
 ```
->>>5
->>>1
->>>2
->>>3
->>>4
->>>5
+5
+1
+2
+3
+4
+5
 ```
 ### Salida
 ```
