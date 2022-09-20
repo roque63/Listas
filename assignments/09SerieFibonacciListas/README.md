@@ -26,7 +26,7 @@ La lista con el número de términos de la serie de Fibonacci solicitados, uno p
 ## Ejemplos de ejecución del programa
 ### Entrada
 ```
->>> 5
+5
 ```
 ### Salida
 ```
@@ -34,7 +34,7 @@ La lista con el número de términos de la serie de Fibonacci solicitados, uno p
 ```
 ### Entrada
 ```
->>> 9
+9
 ```
 ### Salida
 ```
@@ -42,7 +42,7 @@ La lista con el número de términos de la serie de Fibonacci solicitados, uno p
 ```
 ### Entrada
 ```
->>> 0
+0
 ```
 ### Salida
 ```
